@@ -24,7 +24,7 @@ services:
       - POSTGRES_PASSWORD=Nslsom!
       - POSTGRES_DB=akk
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - akk_psql_data:/var/lib/postgresql/data
     ports:
       - "127.0.0.1:5432:5432"
     restart: always
@@ -37,7 +37,7 @@ services:
     restart: always
 
 volumes:
-  postgres_data:
+  akk_psql_data:
 
 networks:
   default:
