@@ -1,3 +1,3 @@
 psql -f install.sql -U postgres
-PGPASSWORD=marcus psql -d app -f structure.sql -U marcus
-PGPASSWORD=marcus psql -d app -f data.sql -U marcus
+PGPASSWORD=Nslsom! psql -d akk -f data.sql -U nolik
+PGPASSWORD=Nslsom! psql -d akk -f structure.sql -U nolik
