@@ -85,9 +85,9 @@ docker-compose down
 docker-compose logs
 
 # View logs for specific service
-docker-compose logs api-example
-docker-compose logs pg-example
-docker-compose logs redis-example
+docker-compose logs akk
+docker-compose logs akk-psql
+docker-compose logs akk-redis
 
 # Rebuild and start services
 docker-compose up --build -d
@@ -106,7 +106,7 @@ docker-compose up --build -d
 docker-compose ps
 
 # Restart a specific service
-docker-compose restart api-example
+docker-compose restart akk
 ```
 
 ## Manual Installation (Alternative)
