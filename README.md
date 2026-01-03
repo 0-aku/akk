@@ -1,6 +1,6 @@
-# Metarhia application example for Node.js
+# Metarhia app example for Node.js
 
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/metarhia/Example/blob/master/LICENSE)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/0-akk/app/blob/master/LICENSE)
 
 [🚀 Metarhia documentation and starter's guide](https://github.com/metarhia/Docs)
 
@@ -13,7 +13,7 @@ moving all system code to dependencies, namely using
 
 <!--
 You can begin development from this starter kit but having in mind future
-production deployment and further moving application to
+production deployment and further moving app to
 [Metaserverless cloud](https://github.com/Metaserverless) based on Metarhia
 technology stack and Node.js.
 -->
@@ -32,7 +32,7 @@ let's start with
 - Serve API with auto routing, HTTP(S), WS(S)
 - Server code live reload with file system watch
 - Auto dependency loader and plugins
-- Graceful shutdown and application reload
+- Graceful shutdown and app reload
 - Minimum code size and dependencies
 - Code sandboxing for security and context isolation
 - Multi-threading for CPU utilization and isolation
@@ -61,7 +61,7 @@ let's start with
 
 ## Docker Usage
 
-The easiest way to run this application is using Docker and Docker Compose:
+The easiest way to run this app is using Docker and Docker Compose:
 
 ### Prerequisites
 

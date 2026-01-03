@@ -22,7 +22,7 @@ services:
     environment:
       - POSTGRES_USER=marcus
       - POSTGRES_PASSWORD=marcus
-      - POSTGRES_DB=application
+      - POSTGRES_DB=app
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:

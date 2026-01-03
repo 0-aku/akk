@@ -1,20 +1,20 @@
 {
-  "name": "metarhia",
+  "name": "akk",
   "version": "3.1.0",
   "author": "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
-  "description": "Metarhia Application Example",
+  "description": "Metarhia Aps",
   "license": "MIT",
   "keywords": [
     "metarhia",
     "starter",
     "kit",
     "cloud",
-    "impress",
+    "akk",
     "nodejs",
     "example",
     "websocket",
     "api",
-    "application",
+    "app",
     "server",
     "rpc",
     "soa",
@@ -34,12 +34,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/metarhia/Example"
+    "url": "https://github.com/0-akk/app"
   },
   "bugs": {
-    "url": "https://github.com/metarhia/Example/issues"
+    "url": "https://github.com/0-akk/app/issues"
   },
-  "homepage": "https://github.com/metarhia/Example",
+  "homepage": "https://github.com/0-akk/app",
   "main": "server.js",
   "types": "types/global.d.ts",
   "scripts": {
@@ -63,7 +63,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "impress": "^3.1.2",
+    "akk": "github:0-akk/akk#akk",
     "metasql": "^3.0.0-alpha.4",
     "pg": "^8.15.6",
     "redis": "^5.9.0"

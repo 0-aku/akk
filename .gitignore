@@ -1,6 +1,6 @@
 node_modules
 /log/
-/application/tasks
+/app/tasks
 *.log
 *.done
 *.pem
