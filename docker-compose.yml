@@ -1,37 +1,37 @@
 services:
-  api-example:
+  akk:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: api-example
+    container_name: akk
     environment:
-      - DB_HOST=pg-example
-      - REDIS_HOST=redis-example
+      - DB_HOST=akk-psql
+      - REDIS_HOST=akk-redis
     depends_on:
-      - pg-example
-      - redis-example
+      - akk-psql
+      - akk-redis
     ports:
       - "127.0.0.1:8000:8000"
       - "127.0.0.1:8001:8001"
       - "127.0.0.1:8002:8002"
     restart: always
 
-  pg-example:
+  akk-psql:
     image: postgres:17-alpine
-    container_name: pg-example
+    container_name: akk-psql
     environment:
-      - POSTGRES_USER=marcus
-      - POSTGRES_PASSWORD=marcus
-      - POSTGRES_DB=app
+      - POSTGRES_USER=nolik
+      - POSTGRES_PASSWORD=Nslsom!
+      - POSTGRES_DB=akk
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
       - "127.0.0.1:5432:5432"
     restart: always
 
-  redis-example:
+  akk-redis:
     image: redis:8-alpine
-    container_name: redis-example
+    container_name: akk-redis
     ports:
       - "127.0.0.1:6379:6379"
     restart: always
@@ -41,4 +41,4 @@ volumes:
 
 networks:
   default:
-    name: api-example-network
+    name: akk-network
